@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Belajar Bahasa Inggris</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f6f8fa;
+      margin: 0;
+      padding: 0;
+      color: #24292e;
+    }
+    header {
+      background: #24292e;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    nav {
+      background: #0366d6;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 8px 15px;
+      padding: 8px 16px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #0356b6;
+    }
+    .content {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section {
+      background: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 6px;
+      border: 1px solid #d1d5da;
+    }
+    h2 {
+      color: #0366d6;
+      border-bottom: 1px solid #e1e4e8;
+      padding-bottom: 5px;
+    }
+    ul li, ol li {
+      margin-bottom: 10px;
+    }
+    button, a.download {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 16px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    button:hover, a.download:hover {
+      background-color: #218838;
+    }
+    .toggle {
+      background-color: #f6f8fa;
+      border-radius: 6px;
+      margin-top: 10px;
+      padding: 10px;
+      display: none;
+    }
+    .fun-zone {
+      background-color: #fff5b1;
+      border: 1px solid #ffea7f;
+      padding: 20px;
+      border-radius: 6px;
+      margin-top: 40px;
+    }
+    .fun-zone h3 {
+      color: #e36209;
+    }
+    .joke, .quote {
+      font-style: italic;
+      margin: 10px 0;
+      color: #586069;
+    }
+    .quiz {
+      margin-top: 20px;
+    }
+    .quiz label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .quiz input[type="radio"] {
+      margin-right: 10px;
+    }
+    .quiz button {
+      background-color: #0366d6;
+    }
+    .quiz button:hover {
+      background-color: #024c9c;
+    }
+    .video-embed, .music-embed, .game-link {
+      margin-top: 20px;
+      padding: 15px;
+      background: #e8f5e9;
+      border-radius: 6px;
+    }
+    iframe {
+      width: 100%;
+      height: 250px;
+      border: none;
+      border-radius: 6px;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+      nav a {
+        margin: 5px 0;
+        width: 80%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><i class="fab fa-github"></i> Belajar Bahasa Inggris</h1>
+    <p><header>
+      <p>Interaktif, Edukatif, dan Menyenangkan!</p>
+    </header></p>
+  </header>
+  <nav>
+    <a href="#frasa"><i class="fas fa-quote-right"></i> Frasa Dasar</a>
+    <a href="#percakapan"><i class="fas fa-comments"></i> Percakapan</a>
+    <a href="#latihan"><i class="fas fa-edit"></i> Latihan</a>
+    <a href="#hiburan"><i class="fas fa-smile"></i> Zona Hiburan</a>
+    <a href="#download"><i class="fas fa-download"></i> Unduh</a>
+  </nav>
+  <div class="content">
+    <!-- Konten lainnya tetap -->
+<!-- ... existing content up to <div class="content"> ... -->
+    <div class="content">
+        <div class="section" id="frasa">
+          <h2>Frasa Dasar</h2>
+          <ul>
+            <li>Hello – Halo</li>
+            <li>Good morning – Selamat pagi</li>
+            <li>How are you? – Apa kabar?</li>
+            <li>Thank you – Terima kasih</li>
+            <li>You're welcome – Sama-sama</li>
+            <li>Excuse me – Permisi</li>
+            <li>Sorry – Maaf</li>
+            <li>Yes / No – Ya / Tidak</li>
+            <li>What's your name? – Siapa namamu?</li>
+            <li>My name is... – Nama saya...</li>
+          </ul>
+        </div>
+    
+        <div class="section" id="percakapan">
+          <h2>Percakapan Sederhana</h2>
+          <p><strong>A:</strong> Hello! How are you?<br>
+             <strong>B:</strong> I'm good, thank you! And you?<br>
+             <strong>A:</strong> I'm fine. What's your name?<br>
+             <strong>B:</strong> My name is Sarah. What's yours?<br>
+             <strong>A:</strong> I'm John. Nice to meet you.<br>
+             <strong>B:</strong> Nice to meet you too!</p>
+        </div>
+    
+        <div class="section" id="latihan">
+          <h2>Latihan Soal</h2>
+          <h3>A. Pilihan Ganda</h3>
+          <ol>
+            <li>What does "I’m looking for a bottle of water" mean?<br>
+              a) Saya menjual air<br>
+              b) Saya mencari sebotol air ✅<br>
+              c) Saya minum air</li>
+            <li>"It’s in the fridge" artinya:<br>
+              a) Di lemari<br>
+              b) Di kulkas ✅<br>
+              c) Di tas</li>
+            <li>"How much is it?" berarti:<br>
+              a) Di mana itu?<br>
+              b) Apa ini?<br>
+              c) Berapa harganya? ✅</li>
+          </ol>
+          <h3>B. Lengkapi Kalimat</h3>
+          <ul>
+            <li>Hello! Can I help you?</li>
+            <li>It’s in the <strong>fridge</strong>, near the back.</li>
+            <li>I’ll take it. <strong>Here</strong> you go.</li>
+            <li><strong>Thank</strong> you. Have a nice day!</li>
+          </ul>
+          <h3>C. Susun Kata</h3>
+          <ul>
+            <li>looking / I / for / am / water → I'm looking for water</li>
+            <li>you / help / I / can / ? → Can I help you?</li>
+          </ul>
+        </div>
+    
+    <!-- ... existing content up to <div class="content"> ... -->
+  <div class="content">
+    <!-- existing sections ... -->
+      <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+
+        <div style="flex: 1; min-width: 280px; border: 1px solid #ccc; padding: 15px; border-radius: 10px;">
+          <h3>Kuis 1: Vocabulary</h3>
+          <p>What does "thirsty" mean?</p>
+          <label><input type="radio" name="quiz1"> Lapar</label><br>
+          <label><input type="radio" name="quiz1"> Haus</label><br>
+          <label><input type="radio" name="quiz1"> Mengantuk</label><br>
+          <button onclick="alert('Jawaban benar: Haus!')">Cek Jawaban</button>
+        </div>
+
+        <div style="flex: 1; min-width: 280px; border: 1px solid #ccc; padding: 15px; border-radius: 10px;">
+          <h3>Kuis 2: Grammar</h3>
+          <p>Choose the correct sentence:</p>
+          <label><input type="radio" name="quiz2"> She go to school.</label><br>
+          <label><input type="radio" name="quiz2"> She goes to school.</label><br>
+          <label><input type="radio" name="quiz2"> She going to school.</label><br>
+          <button onclick="alert('Jawaban benar: She goes to school.')">Cek Jawaban</button>
+        </div>
+
+        <div style="flex: 1; min-width: 280px; border: 1px solid #ccc; padding: 15px; border-radius: 10px;">
+          <h3>Kuis 3: Dialog</h3>
+          <p>Lengkapi kalimat berikut:<br>"___ you speak English?"</p>
+          <label><input type="radio" name="quiz3"> Do</label><br>
+          <label><input type="radio" name="quiz3"> Does</label><br>
+          <label><input type="radio" name="quiz3"> Did</label><br>
+          <button onclick="alert('Jawaban benar: Do you speak English?')">Cek Jawaban</button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- existing other sections ... -->
+  </div>
+</body>
+</html>
+<!-- ... existing content up to <div class="content"> ... -->
+    <div class="content">
+        <!-- existing sections ... -->
+    
+        <div class="section" id="percakapan-lanjutan">
+          <h2>Dialog Bahasa Inggris (Lanjutan)</h2>
+    
+          <h3>1. Di Restoran</h3>
+          <p><strong>Waiter:</strong> Good evening. May I take your order?<br>
+             <strong>Customer:</strong> Yes, I would like a chicken sandwich and a glass of orange juice.<br>
+             <strong>Waiter:</strong> Sure. Anything else?<br>
+             <strong>Customer:</strong> No, that will be all. Thank you.</p>
+    
+          <h3>2. Di Bandara</h3>
+          <p><strong>Staff:</strong> May I see your ticket and passport, please?<br>
+             <strong>Passenger:</strong> Sure, here they are.<br>
+             <strong>Staff:</strong> Thank you. You're at Gate 12. Boarding starts at 6 PM.<br>
+             <strong>Passenger:</strong> Got it. Thanks!</p>
+    
+          <h3>3. Di Toko</h3>
+          <p><strong>Shopkeeper:</strong> Can I help you find something?<br>
+             <strong>Customer:</strong> Yes, I’m looking for a jacket.<br>
+             <strong>Shopkeeper:</strong> What size do you need?<br>
+             <strong>Customer:</strong> Medium, please.<br>
+             <strong>Shopkeeper:</strong> Here you go. Would you like to try it on?</p>
+    
+          <h3>4. Telepon Teman</h3>
+          <p><strong>A:</strong> Hello, is this Mike?<br>
+             <strong>B:</strong> Yes, speaking.<br>
+             <strong>A:</strong> It’s Anna. Do you want to hang out this weekend?<br>
+             <strong>B:</strong> Sure! Let’s go to the park on Saturday.</p>
+    
+          <h3>5. Di Klinik</h3>
+          <p><strong>Doctor:</strong> What seems to be the problem?<br>
+             <strong>Patient:</strong> I have a headache and a sore throat.<br>
+             <strong>Doctor:</strong> Do you also have a fever?<br>
+             <strong>Patient:</strong> Yes, I think so.<br>
+             <strong>Doctor:</strong> I’ll give you some medicine. Get some rest.</p>
+        </div>
+        <!-- existing other sections ... -->
+      </div>
+    </body>
+    </html>
+    
+<div class="fun-zone" id="hiburan">
+    <h2>Zona Hiburan</h2>
+    <div class="quote">"Learning a new language is like gaining a new soul."</div>
+    <div class="joke">Q: Why did the student eat his homework? <br>A: Because the teacher told him it was a piece of cake!</div>
+    <div class="quiz">
+      <h3>Mini Quiz: Vocabulary</h3>
+      <p>What is the meaning of "hungry"?</p>
+      <label><input type="radio" name="q1">Sedih</label>
+      <label><input type="radio" name="q1">Lapar</label>
+      <label><input type="radio" name="q1">Marah</label>
+      <button onclick="alert('Jawaban yang benar: Lapar!')">Cek Jawaban</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar Bahasa Inggris</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #fff);
+      color: #333;
+    }
+    header {
+      background-color: #0288d1;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      background-color: #03a9f4;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .content {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section {
+      background-color: white;
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .section h2 {
+      border-bottom: 2px solid #03a9f4;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      color: #0288d1;
+    }
+    button {
+      background-color: #0288d1;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #0277bd;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="content">
+    <!-- existing sections (percakapan-lanjutan, latihan-interaktif, etc.) remain untouched -->
+<!-- ... existing content ... -->
+
+<div class="section" id="zona-hiburan">
+  <h2>Zona Hiburan</h2>
+  <p>Belajar sambil bermain! Nikmati beberapa aktivitas menyenangkan di bawah ini:</p>
+
+  <h3>🎵 Lagu Bahasa Inggris</h3>
+  <p>Dengarkan lagu-lagu populer untuk membantu kamu memahami pengucapan dan kosa kata.</p>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=k4V3Mo61fJM" target="_blank">Shape of You - Ed Sheeran</a></li>
+    <li><a href="https://www.youtube.com/watch?v=hT_nvWreIhg" target="_blank">Counting Stars - OneRepublic</a></li>
+  </ul>
+
+  <h3>🎮 Main Game Bahasa Inggris</h3>
+  <p>Temukan kata tersembunyi! <div class="game-link">
+    <a href="https://www.gamestolearnenglish.com/" target="_blank">Klik di sini untuk bermain game edukatif!</a>
+  </div>
+
+  <h3>🎬 Film & Kartun</h3>
+  <p>Tonton cuplikan film/kartun dengan subtitle Bahasa Inggris:</p>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=8g18jFHCLXk" target="_blank">Finding Nemo</a></li>
+    <li><a href="https://www.youtube.com/watch?v=QHcB-EqPZxA" target="_blank">Zootopia</a></li>
+  </ul>
+</div>
+
+<div class="section" id="unduh">
+  <h2>Unduh Materi</h2>
+  <p>Klik tombol di bawah ini untuk mengunduh materi belajar PDF:</p>
+  <a href="#" download><button>📥 Unduh Materi PDF</button></a>
+</div>
+
+</div>
+</body>
+</html>
+
